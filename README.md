@@ -9,11 +9,16 @@
 - `processed_data`: folder for processed data files
 
 ## R-script `stresseu_summary_indicators_cortisol_dynamics.r` contains:
+* Input: `data/participants.csv` and `data/studies.csv` (see www.stressdatabase.eu for the data access procedure)
+* Output: `processed_data/df_sum_cort.rds`
+
 * Baseline correction:
-  - for studies with multiple baseline values: Replace baseline values by average
-  - for studies without baseline values: Makes NA explicit on T0
+  - Timepoints: values between 20 minutes before and 2 minutes after stressor onset are considered baseline
+  - for studies with multiple baseline values: replace baseline values by average
+  - for studies without baseline values: makes NA explicit on T0
 
 * Calculation of classical summary indicators of cortisol dynamics:
+  - Timepoints: values more then 2h after stressor onset are excluded, peak values are determined between 15 and 50 minutes after stressor onset
   - Peak reactivity: peak - baseline
   - Slope reactivity: slope baseline to peak
   - Slope recovery: slope peak to last value
