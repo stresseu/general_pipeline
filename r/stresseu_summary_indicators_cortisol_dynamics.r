@@ -170,7 +170,7 @@ summary_indicators <- function(t, v){
     unlist(list_AUC)->vector_AUC
     # 6D) AUCg: sum AUCs of each time interval
     sum(vector_AUC, na.rm = F)->AUCg
-    # AUCi: remove area between ground and the first measurement (m1), for all time points (=sum(time_intervals) from AUCg (Pruessner, 2003).
+    # AUCi: remove area between ground and the first measurement (v1), for all time points (=sum(time_intervals) from AUCg (Pruessner, 2003).
     # 6E) calculate baseline:
     if(length(index_baseline_time_points) == 1){
       baseline = v_max2h[index_baseline_time_points] * sum(t_int) 
