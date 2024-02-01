@@ -4,7 +4,7 @@
 
 ## Index
 - `README.md`: an overview of the project
-- `data`: folder for raw data files (note, see www.stressdatabase.eu for the data access procedure)
+- `data`: folder for raw data files
 - `r`: folder with r-scripts
 - `processed_data`: folder for processed data files
 
