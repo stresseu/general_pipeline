@@ -1,13 +1,13 @@
 # General pipeline to calculate classical summary indicators of cortisol dynamics in the STRESS-EU database (www.stressdatabase.eu)
-# Authors: Milou Sep, Laura de Nooij and Jonathan Posthuma
-# contact: m.s.c.sep(at)amsterdamumc.nl
+Authors: Milou Sep, Laura de Nooij and Jonathan Posthuma
+contact: m.s.c.sep(at)amsterdamumc.nl
 
 # Index
 
-_ README.md: an overview of the project
-|___ data: folder for raw data files (note, see www.stressdatabase.eu for the data access procedure)
-|___ r: folder with r-scripts
-|___ processed_data: folder for processed data files
+_ `README.md`: an overview of the project
+|___ `data`: folder for raw data files (note, see www.stressdatabase.eu for the data access procedure)
+|___ `r`: folder with r-scripts
+|___ `processed_data`: folder for processed data files
 
 R-script `stresseu_summary_indicators_cortisol_dynamics.r` contains:
 * Baseline correction:
