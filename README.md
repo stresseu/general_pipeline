@@ -3,10 +3,10 @@
 - contact: m.s.c.sep(at)amsterdamumc.nl
 
 # Index
-_ `README.md`: an overview of the project
-|___ `data`: folder for raw data files (note, see www.stressdatabase.eu for the data access procedure)
-|___ `r`: folder with r-scripts
-|___ `processed_data`: folder for processed data files
+- `README.md`: an overview of the project
+- `data`: folder for raw data files (note, see www.stressdatabase.eu for the data access procedure)
+- `r`: folder with r-scripts
+- `processed_data`: folder for processed data files
 
 # R-script `stresseu_summary_indicators_cortisol_dynamics.r` contains:
 * Baseline correction:
