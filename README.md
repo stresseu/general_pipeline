@@ -8,7 +8,7 @@
 - `r`: folder with r-scripts
 - `processed_data`: folder for processed data files
 
-# R-script `stresseu_summary_indicators_cortisol_dynamics.r` contains:
+## R-script `stresseu_summary_indicators_cortisol_dynamics.r` contains:
 * Baseline correction:
   - for studies with multiple baseline values: Replace baseline values by average
   - for studies without baseline values: Makes NA explicit on T0
