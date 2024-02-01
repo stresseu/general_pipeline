@@ -2,7 +2,7 @@
 - Authors: Milou Sep, Laura de Nooij and Jonathan Posthuma
 - contact: m.s.c.sep(at)amsterdamumc.nl
 
-# Index
+## Index
 - `README.md`: an overview of the project
 - `data`: folder for raw data files (note, see www.stressdatabase.eu for the data access procedure)
 - `r`: folder with r-scripts
@@ -25,5 +25,5 @@
   - Area under the curve with respect to ground (AUCg)
   - Area under the curve with respect to increase (AUCi) 
 
-# References
+## References
 For background and formula's for the summary cortisol indicators see [Khoury, 2015](https://www.sciencedirect.com/science/article/pii/S2352289515000272) and [Pruessner, 2003](https://www.sciencedirect.com/science/article/pii/S0306453002001087#FD6).
